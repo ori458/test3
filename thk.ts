@@ -16,7 +16,7 @@ namespace THK {
      * @param e describe parameter here
      */
     //% block
-    export function モーター番号_角度(e: number, n: number): void {
+    export function モーター番号_角度(n: number): void {
         // Add code here
         n = n * 0.9;
         kitronik_i2c_16_servo.servoWrite(kitronik_i2c_16_servo.Servos.Servo1, n)
