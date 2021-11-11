@@ -19,8 +19,7 @@ namespace THK {
     export function モーター１の角度(n: number): void {
         // Add code here
         n = n * 0.8;
-        kitronik_i2c_16_servo.servoWrite(kitronik_i2c_16_servo.Servos.Servo1, n)
-        //kitronik_i2c_16_servo.servoWrite(kitronik_i2c_16_servo.Servos.Servo2, n)
+        kitronik_i2c_16_servo.servoWrite(kitronik_i2c_16_servo.Servos.Servo2, n)
     }
 
 }// ここにコードを追加します
